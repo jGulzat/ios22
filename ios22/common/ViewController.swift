@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     private let height = UIScreen.main.bounds.height
-    
+   
     private let bgView: UIView = {
         let view = UIView()
         view.backgroundColor = .white
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     
     private func initUI() {
         view.backgroundColor = .cyan
-        
+        title = "Start"
         configureBGView()
         configureNameLabel()
         configureNameTF()
@@ -125,7 +125,8 @@ class ViewController: UIViewController {
 //            navigationController?.pushViewController(vc, animated: true)
 //        }
         
-        let vc = SecondViewController()
+     //   let vc = SecondViewController()
+        let vc = TableViewViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     
