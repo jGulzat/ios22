@@ -18,9 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
            let window = UIWindow(windowScene: windowScene)
         
            let rootVC = ViewController()  // стартовый экран
-           let nav1 = UINavigationController(rootViewController: rootVC)
+           let nav1 = UINavigationController(rootViewController: CatalogViewController())
         
-           window.rootViewController = CatalogListViewController() //nav1
+           window.rootViewController = nav1
            //nav1  // синяя стрелка
         
            self.window = window

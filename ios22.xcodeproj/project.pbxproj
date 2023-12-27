@@ -10,6 +10,9 @@
 		40A5B25B2B289E5F0057155A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A5B25A2B289E5F0057155A /* ThirdViewController.swift */; };
 		40A76D002B31D22300C4F09C /* CatalogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A76CFF2B31D22300C4F09C /* CatalogListViewController.swift */; };
 		40A76D032B31DAE400C4F09C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A76D022B31DAE400C4F09C /* TableViewCell.swift */; };
+		40C110442B36D62F008E75C6 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C110432B36D62F008E75C6 /* CatalogViewController.swift */; };
+		40C110462B36D77C008E75C6 /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C110452B36D77C008E75C6 /* Goods.swift */; };
+		40C110482B36DB0D008E75C6 /* GoodsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C110472B36DB0D008E75C6 /* GoodsCellTableViewCell.swift */; };
 		40C3F6AF2B2C995700083345 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3F6AE2B2C995700083345 /* TableViewViewController.swift */; };
 		40C3F6B22B2CA0DD00083345 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3F6B12B2CA0DD00083345 /* Contact.swift */; };
 		40D8249B2B23522A00C796A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D8249A2B23522A00C796A9 /* AppDelegate.swift */; };
@@ -27,6 +30,9 @@
 		40A5B25A2B289E5F0057155A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		40A76CFF2B31D22300C4F09C /* CatalogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListViewController.swift; sourceTree = "<group>"; };
 		40A76D022B31DAE400C4F09C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		40C110432B36D62F008E75C6 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		40C110452B36D77C008E75C6 /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
+		40C110472B36DB0D008E75C6 /* GoodsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsCellTableViewCell.swift; sourceTree = "<group>"; };
 		40C3F6AE2B2C995700083345 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
 		40C3F6B12B2CA0DD00083345 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		40D824972B23522A00C796A9 /* ios22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios22.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				40A76D022B31DAE400C4F09C /* TableViewCell.swift */,
+				40C110472B36DB0D008E75C6 /* GoodsCellTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -74,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				40C3F6B12B2CA0DD00083345 /* Contact.swift */,
+				40C110452B36D77C008E75C6 /* Goods.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 				40A5B25A2B289E5F0057155A /* ThirdViewController.swift */,
 				40C3F6AE2B2C995700083345 /* TableViewViewController.swift */,
 				40A76CFF2B31D22300C4F09C /* CatalogListViewController.swift */,
+				40C110432B36D62F008E75C6 /* CatalogViewController.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -264,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D8249F2B23522A00C796A9 /* ViewController.swift in Sources */,
+				40C110442B36D62F008E75C6 /* CatalogViewController.swift in Sources */,
 				40D824B22B2363C400C796A9 /* FinishViewController.swift in Sources */,
 				40D8249B2B23522A00C796A9 /* AppDelegate.swift in Sources */,
 				40D824B42B2363DF00C796A9 /* SecondViewController.swift in Sources */,
@@ -272,7 +282,9 @@
 				40C3F6B22B2CA0DD00083345 /* Contact.swift in Sources */,
 				40A5B25B2B289E5F0057155A /* ThirdViewController.swift in Sources */,
 				40D8249D2B23522A00C796A9 /* SceneDelegate.swift in Sources */,
+				40C110462B36D77C008E75C6 /* Goods.swift in Sources */,
 				40C3F6AF2B2C995700083345 /* TableViewViewController.swift in Sources */,
+				40C110482B36DB0D008E75C6 /* GoodsCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

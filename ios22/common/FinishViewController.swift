@@ -9,12 +9,20 @@ import UIKit
 
 class FinishViewController: UIViewController {
 
-    var data: String?
+    var goods: Goods?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .cyan
+        guard let goods = goods else { return }
+        
+        print("goods: \(goods)")
+        
+        print("name: \(goods.name)")
+        
+        print("color: \(goods.detail.roomType)")
+        
         
     }
     
